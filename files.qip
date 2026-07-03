@@ -1,0 +1,16 @@
+set_global_assignment -name VERILOG_FILE src/definitions.v
+set_global_assignment -name VERILOG_FILE src/pdp1_vga_console.v
+set_global_assignment -name VERILOG_FILE src/pdp1_vga_typewriter.v
+set_global_assignment -name VERILOG_FILE src/memory.v
+set_global_assignment -name VERILOG_FILE src/pdp1_vga_crt.v
+set_global_assignment -name VERILOG_FILE src/keyboard.v
+set_global_assignment -name VERILOG_FILE src/cpu.v
+
+set_global_assignment -name QIP_FILE rtl/pll.qip
+set_global_assignment -name SDC_FILE PDP1.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE PDP1.sv
+
+set_global_assignment -name MIF_FILE fiodec_charset.mif
+set_global_assignment -name MIF_FILE console_bg.mif
+set_global_assignment -name MIF_FILE spacewar.mif
+
